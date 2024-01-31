@@ -126,7 +126,8 @@ h2.separator {
 }
 
 .sell-nft .item:hover,
-.nft-shop .nft-list .item:hover {
+.nft-shop .nft-list .item:hover,
+.sellers .item {
   box-shadow: none;
 }
 
