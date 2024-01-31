@@ -127,7 +127,7 @@ h2.separator {
 
 .sell-nft .item:hover,
 .nft-shop .nft-list .item:hover,
-.sellers .item {
+.sellers .item:hover {
   box-shadow: none;
 }
 
@@ -291,4 +291,29 @@ h2.separator {
 .sellers .item img {
   width: 64px;
   border-radius: 30px;
+}
+
+.sellers .item .info p {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 100px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer h3 {
+  font-size: 48px;
+}
+footer .right {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 26px;
 }
